@@ -1,0 +1,17 @@
+body {
+  background-color: gray;
+  font-family: "COMIC SANS MS", Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  }
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
