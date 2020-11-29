@@ -1,4 +1,5 @@
 body {
+  background-image: url("https://i.pinimg.com/originals/a1/73/2c/a1732cb891e74ccfd7c58bbdb94efd55.jpg");
   background-color: white;
   font-family: "COMIC SANS MS", Arial, sans-serif;
 }
@@ -37,4 +38,12 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+.div1 {
+  width: 500px;
+  height: 200px;
+  border: 10px solid black;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+  background-color: #ffffff;
 }
