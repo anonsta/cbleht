@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+<h1 style="color: red;">Hasartmängud</h1>
+<p>
+<font size="5" face="arial" color = "black">
+Hasartmäng on rahalise või varalise panuse tegemine mingi sündmuse toimumisele või toimumata jäämisele, kusjuures tulemus saavutatakse juhuslikkuse abil ning panustamise eesmärk on võita rahalisi või materiaalseid vahendeid. Tavaliselt selgub tulemus lühikese aja jooksul. 
+</font></p>
+<div>
+<p>
+<font size="5" face="arial" color = "black">
+Erinevad hasartmängutüübid:
+Lauamängud(pokker, blackjack)
+Mänguautomaadid(slot machine)
+Muud hasarmänguvormid(betting, bingo)	
+</p>
+</div>
+<img
+		src="https://www.telegraph.co.uk/content/dam/betting/Better-Collective/blackjack-table-dealing.jpg?imwidth=500"
+		alt="Blackjack"
+	/>
+</center>
+<div class="row">
+	<div class="column">
+		<h1>pealkiri</h1>
+		<p>rida 3</p>
+		<button class="collapsible">Interneti gamba</button>
+		<div class="content">
+		<p>bets, prediction, ...</p>
+		</div>
+</div>
+	<div class="column">
+	<h1>pealkiri</h1>
+	<img src="https://static.wikia.nocookie.net/meme/images/e/e2/Woah_-.jpg/revision/latest?cb=20171008101236" alt="pls" align=right>
+	<a href="index2.html">Teine lehekülg</a>
+
+</div>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
