@@ -1,7 +1,6 @@
 body {
-  background-image: url("https://i.pinimg.com/originals/a1/73/2c/a1732cb891e74ccfd7c58bbdb94efd55.jpg");
   background-color: white;
-  font-family: "COMIC SANS MS", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -46,4 +45,51 @@ body {
   padding: 10px;
   box-shadow: 5px 10px red;
   background-color: #ffffff;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
 }
